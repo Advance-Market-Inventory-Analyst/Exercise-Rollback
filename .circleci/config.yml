@@ -27,8 +27,7 @@ jobs:
               --region=us-east-1 
 
       - run: return 1
-      - destroy_environment:
-          when_to_run: always      
+      - destroy_environment     
 
 workflows:
   my_workflow:
